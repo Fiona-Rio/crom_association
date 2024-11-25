@@ -19,6 +19,9 @@ export default function App() {
               description={group.description}
               image_promo={group.image_promo}
               image_logo={group.image_logo}
+              facebook={group.facebook}
+              instagram={group.instagram}
+              youtube={group.youtube}
             // className={group.id === 3 ? 'col-span-2 justify-self-center' : ''}
             />
           ))}
