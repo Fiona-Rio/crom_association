@@ -2,13 +2,14 @@ import React from 'react';
 import Navbar from './navbar';
 import MainCard from './mainCard';
 import Card from './card';
+import Footer from './footer';
 import groups from './assets/data/groups';
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      <main className='md:px-8 md:py-10 lg:px-14'>
+      <main className='px-5 pt-3 md:px-8 md:pt-10 lg:px-14'>
         <MainCard />
         <section className='grid lg:grid-cols-2 md:gap-x-20 md:gap-y-24 lg:gap-x-28 mx-16 my-16'>
           {groups.map((group) => (
@@ -26,6 +27,7 @@ export default function App() {
             />
           ))}
         </section>
+        <Footer />
       </main>
     </div>
   )
