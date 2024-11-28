@@ -9,17 +9,17 @@ const card = ({ name, genre, description, image_promo, image_logo, facebook, ins
 
     return (
 
-        <div className="grid grid-rows-3(auto) bg-neutral-100">
+        <div className="box-border lg:h-min-[530px] lg:w-[690px] grid grid-rows-3(auto) bg-neutral-100">
             <div className='relative flex justify-center px-10'>
                 <img className="max-h-80 mx-4 my-3 rounded-[30px]" src={image_promo} alt={name} />
                 <div className="absolute inset-0 flex items-end justify-center">
-                    <p className="text-neutral-100 text-8xl uppercase font-bold translate-y-1 drop-shadow-xl">
+                    <p className="text-neutral-100 text-5xl lg:text-8xl uppercase font-bold translate-y-1 drop-shadow-xl">
                         {name}
                     </p>
                 </div>
             </div>
             <div className="grid grid-cols-4 mt-3">
-                <div className='mx-8'>
+                <div className='mx-8 p-2'>
                     <img className="h-auto" src={image_logo} />
                 </div>
                 <div className="col-span-3 pr-20">
@@ -28,7 +28,7 @@ const card = ({ name, genre, description, image_promo, image_logo, facebook, ins
                             }`}
                         style={{
                             display: showMore ? "block" : "-webkit-box",
-                            WebkitLineClamp: showMore ? "none" : 6,
+                            WebkitLineClamp: showMore ? "none" : 5,
                             WebkitBoxOrient: "vertical",
                         }}
                     >

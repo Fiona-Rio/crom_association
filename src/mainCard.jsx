@@ -4,17 +4,17 @@ import Affiche from '/src/assets/img/affiche_6-12.jpg';
 const mainCard = () => {
     return (
         <section>
-            <div className="bg-neutral-800 text-white selection:bg-yellow-400 selection:text-stone-800 rounded-[18px] p-8 md:m-2 lg:mx-6 md:px-10 md:py-10 md:mb-36 lg:py-10 lg:my-0 grid md:grid-cols-10 lg:grid-cols-12 md:gap-x-8 lg:gap-x-0  justify-center items-center">
+            <div className="bg-neutral-800 text-white selection:bg-yellow-400 selection:text-stone-800 rounded-[18px] p-8 md:m-2 lg:mx-6 md:px-10 md:py-10 md:mb-36 lg:mb-28 lg:py-10 lg:my-0 grid md:grid-cols-10 lg:grid-cols-12 md:gap-x-8 lg:gap-x-0 justify-center items-center">
                 <div className="md:col-span-4 lg:col-span-5 lg:ml-20">
                     <img src={Affiche} alt="affiche du 6 décembre 2024" className="justify-self-center max-h-72 md:max-h-128 lg:max-h-128" />
                 </div>
                 <div className="mt-4 md:col-start-5 md:col-end-11 lg:col-start-6 lg:col-end-13 lg:pl-11">
                     <div className="grid grid-rows-5(auto) gap-y-5 md:gap-y-6 lg:gap-y-10">
                         <div>
-                            <h1 className="uppercase text-3xl text-center md:text-4xl lg:text-6xl font-bold text-yellow-400">angers likes metal VIII</h1>
+                            <h1 className="uppercase text-3xl text-center lg:text-start md:text-4xl lg:text-6xl font-bold text-yellow-400">angers likes metal VIII</h1>
                         </div>
                         <div>
-                            <h2 className="font-bold text-lg text-center md:text-lg lg:text-4xl">LE FINALE SHOW
+                            <h2 className="font-bold text-lg text-center lg:text-start md:text-lg lg:text-4xl">LE FINALE SHOW
                                 •
                                 06/12
                                 •

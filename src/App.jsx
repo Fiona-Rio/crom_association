@@ -3,6 +3,7 @@ import Navbar from './navbar';
 import MainCard from './mainCard';
 import Card from './card';
 import Footer from './footer';
+import Line from './line';
 import groups from './assets/data/groups';
 
 export default function App() {
@@ -11,7 +12,7 @@ export default function App() {
       <Navbar />
       <main className='px-5 pt-3 md:px-8 md:pt-10 lg:px-14'>
         <MainCard />
-        <section className='grid lg:grid-cols-2 md:gap-x-20 md:gap-y-24 lg:gap-x-28 mx-16 my-16'>
+        <section className='flex flex-wrap justify-evenly lg:gap-x-8 lg:gap-y-14 my-10'>
           {groups.map((group) => (
             <Card
               key={group.id}
@@ -27,6 +28,8 @@ export default function App() {
             />
           ))}
         </section>
+        <Line />
+        <Line />
         <Footer />
       </main>
     </div>
