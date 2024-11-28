@@ -20,19 +20,21 @@ const mainCard = () => {
                                 •
                                 le Chabada</h2>
                         </div>
-                        <div className="row-span-2 text-justify md:pr-0 lg:pr-24">
+                        <div className="row-span-2 text-sm lg:text-md text-justify md:pr-0 lg:pr-24">
                             L’association angevine <strong>CROM</strong> présente la 8ème édition du tremplin <strong>Angers likes métal</strong>. Ce tremplin a pour but de promouvoir la culture musicale Metal à Angers et à Nantes et de valoriser les groupes locaux émergents.
                             <br />
-                            <strong>Ten56</strong>. et <strong>Solitaris</strong> sont invités participer à cet évenement majeur dans le paysage du metal angevin. En plus de lots exclusifs venant de nos partenaires comme <strong>Wiseband</strong> et <strong>Dôme Studio</strong>, <strong>Mirizon</strong>, le gagnant du tremplin à l'opportunité de partager la scene emblematique angevine : <strong>Le Chabada</strong>.
+                            <strong>Ten56</strong>. et <strong>Solitaris</strong> sont invités participer à cet évenement majeur dans le paysage du metal angevin. En plus de lots exclusifs venant de nos partenaires comme <strong>Wiseband</strong> et <strong>Dôme Studio</strong>.
+                            <br />
+                            <strong>Mirizon</strong>, le gagnant du tremplin à l'opportunité de partager la scene emblematique angevine : <strong>Le Chabada</strong>.
                         </div>
                         <div className="grid grid-cols-2 md:grid-col-2 lg:grid-cols-12">
                             <a href="https://www.helloasso.com/associations/crom/evenements/angers-likes-metal-final-show"
-                                className="lg:col-span-2  lg:col-start-2 rounded-full border-solid border-2 border-yellow-400 bg-neutral-700 hover:bg-yellow-400 hover:text-neutral-700 hover:scale-105 md:px-10 md:py-2 lg:px-20 lg:py-2 uppercase text-center justify-self-center px-7 py-1 font-bold text-sm md:text-sm md:place-self-center"
+                                className="lg:col-span-2  lg:col-start-2 rounded-full border-solid border-2 border-yellow-400 bg-neutral-700 hover:bg-yellow-400 hover:text-neutral-700 hover:scale-105 md:px-10 md:py-2 lg:px-20 lg:py-2 uppercase text-center justify-self-center px-6 py-1 font-bold text-sm md:text-sm md:place-self-center"
                             >
                                 billetterie
                             </a>
                             <a href="https://www.facebook.com/events/987891515640210/?acontext=%7B%22event_action_history%22%3A[]%7D"
-                                className="lg:col-span-2 md:col-start-2 lg:col-start-7 rounded-full border-solid border-2 border-yellow-400 bg-neutral-700 hover:bg-yellow-400 hover:text-neutral-700 hover:scale-105 md:px-10 md:py-2 lg:px-20 lg:py-2 uppercase text-center justify-self-center px-7 py-1 font-bold text-sm md:text-sm md:place-self-center"
+                                className="lg:col-span-2 md:col-start-2 lg:col-start-7 rounded-full border-solid border-2 border-yellow-400 bg-neutral-700 hover:bg-yellow-400 hover:text-neutral-700 hover:scale-105 md:px-10 md:py-2 lg:px-20 lg:py-2 uppercase text-center justify-self-center px-6 py-1 font-bold text-sm md:text-sm md:place-self-center"
                             >
                                 évenement
                             </a>
